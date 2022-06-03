@@ -61,7 +61,9 @@ public class administrarUsuarios {
             for (Usuarios t : listaUsuarios) {
                 bw.write(t.getUsermane()+ ";");
                 bw.write(t.getContrasenia()+ ";");
-                bw.write(t.getEdad()+ ";");
+                bw.write(t.getEdad()+ ";" );
+                bw.newLine();
+                
             }
             bw.flush();
         } catch (Exception ex) {

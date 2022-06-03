@@ -74,6 +74,11 @@ public class Usuarios {
     public void setClientes(ArrayList<Clientes> clientes) {
         this.clientes = clientes;
     }
+
+    @Override
+    public String toString() {
+        return usermane + contrasenia + edad; 
+    }
    
   
 
