@@ -59,8 +59,9 @@ public class Artistas extends Usuarios{
 
     public void setEdad(int edad) {
         if(edad<18){
-            this.edad = Integer.parseInt(JOptionPane.showInputDialog("Tiene que ser mayor de 18 anios de EDAD \n"
+            edad = Integer.parseInt(JOptionPane.showInputDialog("Tiene que ser mayor de 18 anios de EDAD \n"
                     + "Ingrese edad"));
+            this.edad = edad;
         }else{
             this.edad = edad;
         }

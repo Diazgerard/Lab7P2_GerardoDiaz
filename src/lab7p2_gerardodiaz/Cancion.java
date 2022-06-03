@@ -11,4 +11,9 @@ package lab7p2_gerardodiaz;
  */
 public class Cancion {
     
+    private String titulo;
+    private int  duracion;
+    private String referencia;
+    
+    
 }

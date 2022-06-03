@@ -5,7 +5,10 @@
  */
 package lab7p2_gerardodiaz;
 
+
 import java.util.ArrayList;
+import java.util.Scanner;
+
 
 /**
  *
@@ -19,6 +22,9 @@ public class Usuarios {
     
    ArrayList <Artistas> artistas = new ArrayList();
    ArrayList <Clientes> clientes = new ArrayList();
+   
+  
+   
 
     public Usuarios() {
     }
@@ -69,7 +75,7 @@ public class Usuarios {
         this.clientes = clientes;
     }
    
-   
+  
 
     
     

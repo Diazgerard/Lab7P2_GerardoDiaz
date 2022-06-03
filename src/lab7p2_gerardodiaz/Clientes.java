@@ -45,8 +45,9 @@ public class Clientes extends Usuarios{
 
     public void setEdad(int edad) {
         if(edad<12){
-            this.edad = Integer.parseInt(JOptionPane.showInputDialog("Tiene que ser mayor de 12 anios de EDAD \n"
+            edad = Integer.parseInt(JOptionPane.showInputDialog("Tiene que ser mayor de 12 anios de EDAD \n"
                     + "Ingrese edad"));
+            this.edad = edad;
         }else{
             this.edad = edad;
         }
