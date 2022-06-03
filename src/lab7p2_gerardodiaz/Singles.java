@@ -11,4 +11,7 @@ package lab7p2_gerardodiaz;
  */
 public class Singles extends Lanzamientos{
     
+    ArrayList<Cancion> cancion = new ArrayList();
+    
+    
 }
