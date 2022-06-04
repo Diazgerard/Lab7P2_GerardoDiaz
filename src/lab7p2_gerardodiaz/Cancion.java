@@ -54,6 +54,11 @@ public class Cancion {
     public void setReferencia(String referencia) {
         this.referencia = referencia;
     }
+
+    @Override
+    public String toString() {
+        return titulo + " " + duracion;
+    }
     
     
     

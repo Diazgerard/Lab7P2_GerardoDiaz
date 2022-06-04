@@ -20,6 +20,9 @@ public class Albumes extends Lanzamientos{
     public Albumes() {
         super();
     }
+    
+    public Albumes(String titulo) {
+    }
 
     public Albumes(String titulo, Date fecha, int likes) {
         super(titulo, fecha, likes);
@@ -40,6 +43,13 @@ public class Albumes extends Lanzamientos{
     public void setCanciones(ArrayList<Cancion> canciones) {
         this.canciones = canciones;
     }
+
+    @Override
+    public String toString() {
+        return super.getTitulo();
+    }
+
+    
     
     
 }

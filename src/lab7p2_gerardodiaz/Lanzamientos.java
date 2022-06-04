@@ -68,6 +68,11 @@ public class Lanzamientos {
     public void setSingles(ArrayList<Singles> singles) {
         this.singles = singles;
     }
+
+    @Override
+    public String toString() {
+        return titulo;
+    }
     
     
     
