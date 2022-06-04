@@ -77,7 +77,8 @@ public class Usuarios {
 
     @Override
     public String toString() {
-        return usermane + contrasenia + edad; 
+        return usermane + ";" + contrasenia + ";" + edad; 
+        
     }
    
   

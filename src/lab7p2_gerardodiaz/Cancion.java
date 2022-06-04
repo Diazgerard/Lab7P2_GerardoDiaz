@@ -12,13 +12,20 @@ package lab7p2_gerardodiaz;
 public class Cancion {
     
     private String titulo;
-    private int  duracion;
+    private Object  duracion;
     private String referencia;
 
     public Cancion() {
     }
 
-    public Cancion(String titulo, int duracion, String referencia) {
+    public Cancion(String titulo, Object duracion) {
+        this.titulo = titulo;
+        this.duracion = duracion;
+    }
+    
+    
+
+    public Cancion(String titulo, Object duracion, String referencia) {
         this.titulo = titulo;
         this.duracion = duracion;
         this.referencia = referencia;
@@ -32,11 +39,11 @@ public class Cancion {
         this.titulo = titulo;
     }
 
-    public int getDuracion() {
+    public Object getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(int duracion) {
+    public void setDuracion(Object duracion) {
         this.duracion = duracion;
     }
 
