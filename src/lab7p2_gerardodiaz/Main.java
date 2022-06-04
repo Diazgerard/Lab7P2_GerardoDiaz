@@ -24,6 +24,7 @@ import javax.swing.tree.DefaultTreeModel;
  * @author gerar
  */
 public class Main extends javax.swing.JFrame {
+    
 
     /**
      * Creates new form Main
@@ -1701,7 +1702,7 @@ public class Main extends javax.swing.JFrame {
         DefaultMutableTreeNode nodo_persona;
         nodo_persona
                 = new DefaultMutableTreeNode(
-                        new Albumes(tf_tituloAlbum.getText()
+                        new Lanzamientos(tf_tituloAlbum.getText()
                              
                         )
                 );
@@ -1719,20 +1720,18 @@ public class Main extends javax.swing.JFrame {
         
         jb_Agregar2.setEnabled(true);
         int i = 0;
-        while(i>cantidad){
-            tf_cancionN1.setText("");
-            ff_dur1.setText("");
-            DefaultMutableTreeNode Cancion;
+        DefaultMutableTreeNode Cancion;
+        
+            
+            
             Cancion = new DefaultMutableTreeNode(tf_cancionN1.getText() + ff_dur1.getText());
-
-            anio.add(Cancion);
             
-            
-        }
-            
+        
+        
+        anio.add(Cancion);    
         nodo_persona.add(anio);
-            raiz.add(nodo_persona);    
-         m.reload();
+        raiz.add(nodo_persona);    
+        m.reload();
         
                 
         

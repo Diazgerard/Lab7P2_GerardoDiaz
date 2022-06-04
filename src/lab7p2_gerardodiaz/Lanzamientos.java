@@ -23,6 +23,12 @@ public class Lanzamientos {
     public Lanzamientos() {
     }
 
+    public Lanzamientos(String titulo) {
+        this.titulo = titulo;
+    }
+    
+    
+
     public Lanzamientos(String titulo, Date fecha, int likes) {
         this.titulo = titulo;
         this.fecha = fecha;
@@ -73,6 +79,8 @@ public class Lanzamientos {
     public String toString() {
         return titulo;
     }
+    
+    
     
     
     

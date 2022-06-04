@@ -22,6 +22,7 @@ public class Albumes extends Lanzamientos{
     }
     
     public Albumes(String titulo) {
+       
     }
 
     public Albumes(String titulo, Date fecha, int likes) {
@@ -46,7 +47,7 @@ public class Albumes extends Lanzamientos{
 
     @Override
     public String toString() {
-        return super.getTitulo();
+        return super.toString();
     }
 
     
